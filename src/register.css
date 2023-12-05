@@ -1,0 +1,156 @@
+/* register.css */
+
+.form-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  
+  
+  .form-content {
+    width: 600px;
+    height: 600px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255); /* Semi-transparent white background for better readability */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  /* form */
+  .register{
+    width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for better readability */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .pointer,
+  .activeColor {
+    cursor: pointer;
+    color: black;
+    margin-right: 20px;
+    font-size: 24px;
+  }
+  
+  .pointer:hover,
+  .activeColor:hover {
+    text-decoration:none;
+    color: rgba(166, 0, 255);
+  }
+  
+  .signin {
+    color: rgb(0, 0, 0);
+  }
+  
+  .signup{
+    text-align: center;
+    font-size: 54px;
+  
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .inputs{
+    font-size: 20px;
+    margin: 10px;
+    margin-left: 155px;
+    display: block;
+    padding: 9px;
+    border: 3px solid #ccc;
+    width: 300px;
+  
+    border-radius: 9px;
+  }
+  
+  p {
+    text-align: center;
+    margin-top: 19px;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    margin: 10px 0;
+   
+  }
+  
+  .signupbtn{
+    font-size: 24px;
+  width: 190px;
+  margin-top: 70px;
+  width: 160px;
+  margin: auto;
+  display: block;
+  padding: 10px;
+  background-color: rgb(166, 0, 255);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  
+  }
+  
+
+  button:hover {
+    background-color: rgb(150, 0, 142);
+  }
+  
+  /* Media query for responsiveness */
+  @media screen and (max-width: 500px) {
+    .App {
+      width: 90%;
+    }
+  }
+  
+  
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .signIn-button,
+  .signUp-button {
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .signin-button:hover
+   {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  .signin-button {
+    padding: 10px;
+  
+    color: #3498db;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .signOut-button:hover {
+    background-color: white;
+    color: #3498db;
+  }
+
+  .info{
+    display: flex;
+    text-align: center;
+    font-size: 25;
+  }
